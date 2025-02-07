@@ -14,7 +14,7 @@ function createHeart() {
 
 function createRose() {
     const rose = document.createElement('img');
-    rose.src = 'https://www.freeiconspng.com/uploads/red-rose-png-5.png'; // Gambar mawar
+    rose.src = 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fid.pngtree.com%2Ffreepng%2Frose-icon-design-template_6261877.html&psig=AOvVaw32Wj4jU5zyhXYZmteOAQ3I&ust=1738985179914000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJi6xeHOsIsDFQAAAAAdAAAAABAE'; // Gambar mawar
     rose.classList.add('rose');
     rose.style.width = '50px';
     rose.style.left = Math.random() * 100 + 'vw';
