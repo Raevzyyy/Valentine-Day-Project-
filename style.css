@@ -35,10 +35,30 @@ p {
     margin: 15px 0;
 }
 
-.love-text {
+button {
+    background-color: red;
+    color: white;
+    font-size: 1.2em;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: darkred;
+}
+
+.hidden {
+    display: none;
+}
+
+#secretMessage {
     font-size: 1.5em;
     font-weight: bold;
     color: darkred;
+    margin-top: 20px;
 }
 
 /* Animasi Muncul */
@@ -60,19 +80,6 @@ p {
     0% { transform: translateY(0) scale(1); opacity: 1; }
     50% { transform: translateY(-150px) scale(1.2); opacity: 0.6; }
     100% { transform: translateY(-300px) scale(1); opacity: 0; }
-}
-
-/* Animasi Mawar */
-.rose {
-    position: absolute;
-    bottom: -100px;
-    animation: rise 8s infinite ease-in-out;
-}
-
-@keyframes rise {
-    0% { bottom: -100px; opacity: 0; }
-    50% { bottom: 50vh; opacity: 1; }
-    100% { bottom: 100vh; opacity: 0; }
 }
 
 /* Animasi Bintang */
